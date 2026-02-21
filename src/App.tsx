@@ -9,7 +9,7 @@ import {
 function App() {
 
   return (
-    <main className='w-[375px] m-auto'>
+    <main className='w-[375px] mx-auto'>
       
       <section className='bg-Navy-850 p-6 h-[420px] relative'>
         <Header />

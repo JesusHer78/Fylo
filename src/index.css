@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format("woff2");
+  src: url("./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
@@ -13,7 +13,7 @@
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url("./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf") format("woff2");
+  src: url("./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth_wght.ttf") format("truetype");
 }
 
 @theme {
@@ -31,5 +31,5 @@
 }
 
 body{
-  @apply font-Open-Sans bg-gray-500 text-White
+  @apply font-Open-Sans bg-Navy-900 text-White
 }
