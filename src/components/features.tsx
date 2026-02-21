@@ -1,4 +1,4 @@
-import { features } from '../common/constants'
+import { features } from './common/constants'
 import type { Feature } from '../types/type'
 
 export const Features = () => {

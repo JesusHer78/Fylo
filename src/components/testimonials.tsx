@@ -1,4 +1,4 @@
-import { testimonials } from '../common/constants';
+import { testimonials } from './common/constants';
 import type { Testimonial } from '../types/type';
 import { TestimonialCard } from './testimonial-card';
 

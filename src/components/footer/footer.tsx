@@ -1,5 +1,5 @@
 
-import { conditions, contactInformation, medias, pages } from '../../common/constants';
+import { conditions, contactInformation, medias, pages } from '../common/constants';
 import { ContactItem } from './contact-item';
 import { FooterListItem } from './footer-list-item';
 

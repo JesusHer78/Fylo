@@ -1,22 +1,22 @@
-import type { ContactInformation, Media, Feature, Testimonial } from '../types/type';
-import { FacebookIcon } from '../components/footer/facebook-icon';
-import { XIcon } from '../components/footer/x-icon';
-import { InstagramIcon } from '../components/footer/instagram-icon';
+import type { ContactInformation, Media, Feature, Testimonial } from '../../types/type';
+import { FacebookIcon } from '../footer/facebook-icon';
+import { XIcon } from '../footer/x-icon';
+import { InstagramIcon } from '../footer/instagram-icon';
 
 export const contactInformation: ContactInformation[] = [
   {
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-    inconUrl: '/images/icon-location.svg',
+    iconUrl: '/images/icon-location.svg',
     alt: 'location',
   },
   {
     text: '+1-543-123-4567',
-    inconUrl: '/images/icon-phone.svg',
+    iconUrl: '/images/icon-phone.svg',
     alt: 'icon phone',
   },
   {
     text: 'example@fylo.com',
-    inconUrl: '/images/icon-email.svg',
+    iconUrl: '/images/icon-email.svg',
     alt: 'icon email',
   },
 ];
@@ -70,7 +70,7 @@ export const testimonials: Testimonial[] = [
   {
     name: 'Satish Patel',
     role: 'Founder & CEO, Huddle',
-    image: '/public/images/profile-1.jpg',
+    image: '/images/profile-1.jpg',
     quote: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.'
   },
   {
